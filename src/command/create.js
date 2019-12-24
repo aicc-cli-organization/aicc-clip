@@ -25,7 +25,7 @@ class Download {
 
   run() {
     this.commander
-      .command('download')
+      .command('create')
       .description('从远程下载代码到本地...')
       .action(() => { this.download(); });
 
